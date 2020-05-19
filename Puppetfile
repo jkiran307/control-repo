@@ -18,3 +18,31 @@ forge 'https://forge.puppet.com'
  mod 'tomcat',
    :git    => 'https://github.com/thedevopscloud/tomcat.git',
    :branch => 'production'
+ mod 'java',
+   :git    => 'https://github.com/thedevopscloud/java.git',
+   :branch => 'production'
+ mod 'ntp',
+   :git    => 'https://github.com/thedevopscloud/ntp.git',
+   :branch => 'production'
+ mod 'stdlib',
+   :git    => 'https://github.com/thedevopscloud/stdlib.git',
+   :branch => 'production'
+ mod 'roles',
+   :git    => 'https://github.com/thedevopscloud/roles.git',
+   :branch => 'production'
+ mod 'profiles',
+   :git    => 'https://github.com/thedevopscloud/profiles.git',
+   :branch => 'production'
+ mod 'hieradata-nodes',
+   :git    => 'https://github.com/thedevopscloud/hieradata-nodes.git',
+   :branch => 'production',
+   :install_path => 'hieradata'
+ mod 'Test',
+   :git    => 'https://github.com/thedevopscloud/Test.git',
+   :branch => 'production'
+ mod 'motd',
+   :git    => 'https://github.com/thedevopscloud/motd.git',
+   :branch => 'production'
+ mod 'awspuppet',
+   :git    => 'https://github.com/thedevopscloud/awspuppet.git',
+   :branch => 'production'
